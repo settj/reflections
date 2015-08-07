@@ -9,18 +9,19 @@ Q: How is the staging area different from the working directory and the reposito
 A: Staging area contains items that aren't commited yet, so it is not the repository. But these items are a part of Git, so they don't belong in the working directory. It's valuable as a middle ground so that you don't have to commit all the files in your directory all the time. There may be files that you don't want to save changes on.
 
 /****************************\
-Q: 
+Q: How can you use the staging area to make sure you have one commit per logical change?
 
-A: 
+A: Before committing any changes, you can run git status to review the files you are about to commit. Also, git diff will show you the differences between the working directory and the staging area or the staging area and the directory. This way you make sure the changes are what you want to make. If need be, you can use git reset to take the files out of the staging area. 
 
 /****************************\
-Q: 
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-A: 
+A: When you want to edit/add a certain feature, but keep the rest of the code the same. Branches make sure the original version of the code is functional while you commit changes pertaining to certain things. 
+
 /****************************\
-Q:
+Q: How do the diagrams help you visualize the branch structure?
 
-A:
+A: Helps me understand which commits can be reached by which branches of my repository. The diagram really clarified how modulated the code is when using branches. 
 
 /****************************\
 Q:
