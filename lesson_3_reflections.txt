@@ -1,0 +1,35 @@
+/****************************\
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: To keep a back up on "the cloud" in case of any emergency. Also, remote repositories allow multiple users to access
+the files in the repository.
+
+/****************************\
+Q: 
+
+A: 
+
+/****************************\
+Q: 
+
+A:  
+
+/****************************\
+Q: 
+
+A:  
+
+/****************************\
+Q: 
+
+A:  
+
+/****************************\
+Q: 
+
+A:  
+
+/****************************\
+Q: 
+
+A:  
