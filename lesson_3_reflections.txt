@@ -5,9 +5,10 @@ A: To keep a back up on "the cloud" in case of any emergency. Also, remote repos
 the files in the repository.
 
 /****************************\
-Q: 
+Q: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
 
-A: 
+A: Some other author on the project could have edited a file you have been working on. If Git pulled automatically, your work would be merged with his before completion. Manual pulls make it so that you have complete control over the state of your local repository. 
 
 /****************************\
 Q: 
