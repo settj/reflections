@@ -24,11 +24,11 @@ Q: How do the diagrams help you visualize the branch structure?
 A: Helps me understand which commits can be reached by which branches of my repository. The diagram really clarified how modulated the code is when using branches. 
 
 /****************************\
-Q:
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-A:
+A: The result is a file with the functionality of both branches combined. It is a result of two commits, so we show both commits being parents on the diagram. 
 
 /****************************\
-Q:
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-A: 
+A: Automatic merging is convenient because Git takes care of the code editing. However, Git could make mistakes when performing merges. Manually merging is tedious, but you know that the final code is correct. 
