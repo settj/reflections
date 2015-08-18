@@ -11,24 +11,24 @@ automatically stay up-to-date with your remote repository?
 A: Some other author on the project could have edited a file you have been working on. If Git pulled automatically, your work would be merged with his before completion. Manual pulls make it so that you have complete control over the state of your local repository. 
 
 /****************************\
-Q: 
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-A:  
-
-/****************************\
-Q: 
-
-A:  
+A: A fork is used on GitHub to clone a repository to your profile to edit. Clones and branches are features of Git itself. Clone creates a copy of a respository.  Possibly you would use this when you want to duplicate a repository on GitHub onto your local machine. Branches are pretty much names for different commits. Branches can be used to maintain original functionality while trying to introduce changes.
 
 /****************************\
-Q: 
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
-A:  
+A: The user can work offline and still know what changes haven't been made to the remote yet. Also, it is important for git log and git status to work properly even if disconnected from the internet.
 
 /****************************\
-Q: 
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-A:  
+A: Using Dropbox would be viable, and about the same ease of use. It wouldn't be exactly compatible with Git, but it could work. You could also use a dedicated PC for a remote repository, which would be nice. Nothing would really be easier than GitHub. Without using Git, you would require other version control software or the user manually doing version control. Manual version control is tedious. Git seems like the easiest of the options, but GitHub isn't necessary. 
+
+/****************************\
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A:  A separate branch is good to use when the feature you want to add is brand new; a departure from what works in the master. For minor fixes or optimization, it isn't necessary to use a branch besides master. By using a separate branch you compartmentalize the code in a more logical fashion. All changed corresponding to one idea are put in one branch that is incorporated when complete. On the other hand, master is the working version of the code. You do not want to break the code, so only minor commits should be made on this branch. That way the main code is kept working and consistent.
 
 /****************************\
 Q: 
